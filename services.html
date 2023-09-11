@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecommerce website</title>
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="services.css">
+</head>
+
+<body>
+    <form action="https://formspree.io/f/mvojkylj" method="post">
+        <input type="text" name="Full name" placeholder="Enter your name">
+        <input type="text" name="phone number" placeholder="Enter your mobile number">
+        <input type="text" name="Location" placeholder="Location">
+        <button value="submit">submit</button>
+    </form>
+        <div class="shopping-cart">
+            <div class="box" id="item1">
+                <img id="cartImg" src="sneaker1.jpg" alt="">
+                <div class="content">
+                    <h3></h3>
+                <button id="Buy">Buy now</button>
+                <div>
+                    <label id="size">SIZE: </label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <button id="btn" onclick="addToCart(item1)">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="box" id="item2">
+        <i class="fa fa-trash"></i>
+        <img id="img" src="sneaker2.webp" alt="">
+        <div class="content">
+            <h3></h3>
+            <button id="Buy">Buy now</button>
+            <div>
+                <label id="size">SIZE: </label>
+                <select>
+                    <option id="opt">30</option>
+                    <option>32</option>
+                    <option>34</option>
+                    <option>36</option>
+                </select>
+            </div>
+            <button id="btn" onclick="addToCart(item2)">Add to cart</button>
+        </div>
+    </div>
+</div>
+<div class="box" id="item3">
+    <i class="fa fa-trash"></i>
+    <img id="img" src="sneaker3.webp" alt="">
+    <div class="content">
+        <h3></h3>
+        <button id="Buy">Buy now</button>
+        <div>
+            <label id="size">SIZE: </label>
+            <select>
+                <option>30</option>
+                <option>32</option>
+                <option>34</option>
+                <option>36</option>
+            </select>
+        </div>
+        <button id="btn" onclick="addToCart(item3)">Add to cart</button>
+    </div>
+</div>
+<div class="total"> total : $18.97/-</div>
+<a id="btn" href="#" class="btn">Checkout</a>
+</div>
+
+</header>
+</body>
+</html>
