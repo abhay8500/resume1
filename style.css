@@ -1,0 +1,73 @@
+/* html.body{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* background-color: violet; */
+    /* width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+@media only screen and (max-width:600px){
+    .box{
+        background-color: red;
+    }
+
+    .container{
+        display: flex;
+    }
+} */ 
+
+
+
+
+/* Basic styling for the eCommerce website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
